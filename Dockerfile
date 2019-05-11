@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk8:jdk8u212-b03-slim
+FROM adoptopenjdk/openjdk8:jdk8u212-b03
 LABEL maintainer="Mark Vainomaa <mikroskeem@mikroskeem.eu>"
 
 # Set up base system
