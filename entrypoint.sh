@@ -23,5 +23,10 @@ fi
 MODIFIED_STARTUP="$(eval echo "$(echo "${STARTUP}" | sed -e 's/{{/${/g' -e 's/}}/}/g')")"
 echo ":/home/container$ ${MODIFIED_STARTUP}"
 
+# Source .env file if present
+if [ -f .env ]; then
+    source .env
+fi
+
 # Run the Server
 eval "${MODIFIED_STARTUP}"
