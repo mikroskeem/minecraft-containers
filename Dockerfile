@@ -3,7 +3,7 @@ LABEL maintainer="Mark Vainomaa <mikroskeem@mikroskeem.eu>"
 
 # Set up base system
 RUN    DEBIAN_FRONTEND=noninteractive apt-get -y update \
-    && DEBIAN_FRONTEND=noninteractive apt-get -y install curl git tar sqlite tzdata locales iproute2 \
+    && DEBIAN_FRONTEND=noninteractive apt-get -y install curl git tar sqlite tzdata locales iproute2 libjemalloc1 \
     && locale-gen en_US.UTF-8 \
     && update-locale LANG=en_US.UTF-8 \
     && ln -sf /usr/share/zoneinfo/UTC /etc/localtime \
