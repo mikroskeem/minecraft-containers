@@ -25,7 +25,7 @@ echo ":/home/container$ ${MODIFIED_STARTUP}"
 
 # Source .env file if present
 if [ -f .env ]; then
-    . .env
+    . ./.env
 fi
 
 # Run the Server
