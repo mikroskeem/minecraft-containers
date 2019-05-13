@@ -3,7 +3,7 @@ WORKDIR /root
 RUN curl -L https://github.com/jemalloc/jemalloc/releases/download/5.2.0/jemalloc-5.2.0.tar.bz2 \
     | tar -xvjf - \
     && cd jemalloc-5.2.0 \
-    && ./configure --prefix=/opt/jemalloc --enable-prof --enable-debug --enable-log \
+    && ./configure --prefix=/opt/jemalloc --enable-prof --enable-debug --enable-log --with-malloc-conf \
     && make -j2 \
     && make install
 
