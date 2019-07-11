@@ -7,7 +7,7 @@ RUN curl -L https://github.com/jemalloc/jemalloc/releases/download/5.2.0/jemallo
     && make -j2 \
     && make install
 
-FROM adoptopenjdk/openjdk8-openj9:jdk8u212-b03_openj9-0.14.0
+FROM adoptopenjdk/openjdk8-openj9:jdk8u212-b04_openj9-0.14.2
 LABEL maintainer="Mark Vainomaa <mikroskeem@mikroskeem.eu>"
 
 # Set up base system
