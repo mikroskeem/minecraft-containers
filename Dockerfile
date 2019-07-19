@@ -11,7 +11,7 @@ RUN curl -L https://github.com/jemalloc/jemalloc/releases/download/5.2.0/jemallo
 
 # Install mimalloc
 RUN curl -L https://github.com/microsoft/mimalloc/archive/v1.0.5.tar.gz \
-    | tar -xvjf - \
+    | tar -xvzf - \
     && mkdir -p mimalloc-1.0.5/out \
     && cd mimalloc-1.0.5/out \
     && cmake .. \
