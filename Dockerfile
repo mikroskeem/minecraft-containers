@@ -1,11 +1,22 @@
 FROM quay.io/mikroskeem/ubuntu-devel:ubuntu_18.04_vanilla
 WORKDIR /root
+
+# Install jemalloc
 RUN curl -L https://github.com/jemalloc/jemalloc/releases/download/5.2.0/jemalloc-5.2.0.tar.bz2 \
     | tar -xvjf - \
     && cd jemalloc-5.2.0 \
     && ./configure --prefix=/opt/jemalloc --enable-prof --enable-debug --enable-log --with-malloc-conf \
     && make -j2 \
     && make install
+
+# Install mimalloc
+RUN curl -L https://github.com/microsoft/mimalloc/archive/v1.0.5.tar.gz \
+    | tar -xvjf - \
+    && mkdir -p mimalloc-1.0.5/out \
+    && cd mimalloc-1.0.5/out \
+    && cmake .. \
+    && make -j2 \
+    && install -D -m 755 -s -o root -g root libmimalloc.so /opt/mimalloc/libmimalloc.so
 
 FROM adoptopenjdk/openjdk11:jdk-11.0.3_7
 LABEL maintainer="Mark Vainomaa <mikroskeem@mikroskeem.eu>"
@@ -19,6 +30,7 @@ RUN    DEBIAN_FRONTEND=noninteractive apt-get -y update \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=0 /opt/jemalloc /opt/jemalloc
+COPY --from=0 /opt/mimalloc /opt/mimalloc
 
 # Set up container user
 RUN    groupadd -g 1000 container \
