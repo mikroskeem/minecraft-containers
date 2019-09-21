@@ -18,7 +18,7 @@ RUN curl -L https://github.com/microsoft/mimalloc/archive/v1.0.8.tar.gz \
     && make -j2 \
     && install -D -m 755 -s -o root -g root libmimalloc.so /opt/mimalloc/libmimalloc.so
 
-FROM adoptopenjdk/openjdk8:jdk8u212-b04
+FROM adoptopenjdk/openjdk8:jdk8u222-b10
 LABEL maintainer="Mark Vainomaa <mikroskeem@mikroskeem.eu>"
 
 # Set up base system
