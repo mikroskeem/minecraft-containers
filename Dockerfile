@@ -2,18 +2,18 @@ FROM quay.io/mikroskeem/ubuntu-devel:ubuntu_18.04_vanilla
 WORKDIR /root
 
 # Install jemalloc
-RUN curl -L https://github.com/jemalloc/jemalloc/releases/download/5.2.0/jemalloc-5.2.0.tar.bz2 \
+RUN curl -L https://github.com/jemalloc/jemalloc/releases/download/5.2.1/jemalloc-5.2.1.tar.bz2 \
     | tar -xvjf - \
-    && cd jemalloc-5.2.0 \
+    && cd jemalloc-5.2.1 \
     && ./configure --prefix=/opt/jemalloc --enable-prof --enable-debug --enable-log --with-malloc-conf \
     && make -j2 \
     && make install
 
 # Install mimalloc
-RUN curl -L https://github.com/microsoft/mimalloc/archive/v1.0.5.tar.gz \
+RUN curl -L https://github.com/microsoft/mimalloc/archive/v1.0.8.tar.gz \
     | tar -xvzf - \
-    && mkdir -p mimalloc-1.0.5/out \
-    && cd mimalloc-1.0.5/out \
+    && mkdir -p mimalloc-1.0.8/out \
+    && cd mimalloc-1.0.8/out \
     && cmake .. \
     && make -j2 \
     && install -D -m 755 -s -o root -g root libmimalloc.so /opt/mimalloc/libmimalloc.so
