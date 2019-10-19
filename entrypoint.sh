@@ -10,7 +10,7 @@ cd /home/container || {
 java -version
 
 # Make internal Docker IP address available to processes.
-INTERNAL_IP="$(ip route get 1 | awk '{print $NF;exit}')"
+INTERNAL_IP="$(ip route get 1 | awk '{print $3; exit}')"
 export INTERNAL_IP
 
 # Debug shell
