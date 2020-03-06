@@ -10,10 +10,10 @@ RUN curl -L https://github.com/jemalloc/jemalloc/releases/download/5.2.1/jemallo
     && make install
 
 # Install mimalloc
-RUN curl -L https://github.com/microsoft/mimalloc/archive/v1.0.8.tar.gz \
+RUN curl -L https://github.com/microsoft/mimalloc/archive/v1.6.1.tar.gz \
     | tar -xvzf - \
-    && mkdir -p mimalloc-1.0.8/out \
-    && cd mimalloc-1.0.8/out \
+    && mkdir -p mimalloc-1.6.1/out \
+    && cd mimalloc-1.6.1/out \
     && cmake .. \
     && make -j2 \
     && install -D -m 755 -s -o root -g root libmimalloc.so /opt/mimalloc/libmimalloc.so
