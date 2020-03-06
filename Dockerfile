@@ -18,7 +18,7 @@ RUN curl -L https://github.com/microsoft/mimalloc/archive/v1.6.1.tar.gz \
     && make -j2 \
     && install -D -m 755 -s -o root -g root libmimalloc.so /opt/mimalloc/libmimalloc.so
 
-FROM adoptopenjdk/openjdk11:jdk-11.0.4_11
+FROM adoptopenjdk/openjdk11:jdk-11.0.6_10-debian
 LABEL maintainer="Mark Vainomaa <mikroskeem@mikroskeem.eu>"
 
 # Set up base system
