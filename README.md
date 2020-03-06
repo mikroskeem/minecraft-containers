@@ -2,6 +2,8 @@
 
 [![Quay build status](https://quay.io/repository/mikroskeem/minecraft-containers/status)](https://quay.io/repository/mikroskeem/minecraft-containers)
 
+[Discord](https://discord.gg/KqqdgE7)
+
 Minecraft Docker images for use in [Pterodactyl](https://pterodactyl.io/) panel
 
 Note that this image is not recommended for public consumption/hosting services, because it is insecure (see features below)
