@@ -1,0 +1,226 @@
+[
+  {
+    "featureRelease": 8,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin8-binaries/releases/tag/jdk8u402-b06",
+    "name": "jre-1.8.0_402-b06",
+    "type": "jre",
+    "architecture": "aarch64",
+    "version": "1.8.0_402-b06",
+    "versionSemver": "8.0.402+6",
+    "timestamp": "2024-01-19T15:54:22Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_aarch64_linux_hotspot_8u402b06.tar.gz",
+      "checksum": "782f842c22fe660c5acbea8c1d7b4e812fe658a9e48cd2e8e776d088c7ab32d3"
+    }
+  },
+  {
+    "featureRelease": 8,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin8-binaries/releases/tag/jdk8u402-b06",
+    "name": "jdk-1.8.0_402-b06",
+    "type": "jdk",
+    "architecture": "aarch64",
+    "version": "1.8.0_402-b06",
+    "versionSemver": "8.0.402+6",
+    "timestamp": "2024-01-19T15:54:22Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_aarch64_linux_hotspot_8u402b06.tar.gz",
+      "checksum": "241a72d6f0051de30c71e7ade95b34cd85a249c8e5925bcc7a95872bee81fd84"
+    }
+  },
+  {
+    "featureRelease": 8,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin8-binaries/releases/tag/jdk8u402-b06",
+    "name": "jre-1.8.0_402-b06",
+    "type": "jre",
+    "architecture": "x86_64",
+    "version": "1.8.0_402-b06",
+    "versionSemver": "8.0.402+6",
+    "timestamp": "2024-01-19T15:54:22Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jre_x64_linux_hotspot_8u402b06.tar.gz",
+      "checksum": "1d8c109e96bdb35ffff667dfb911ce03fb9f0f924048dcc8fdbd45198b263ecd"
+    }
+  },
+  {
+    "featureRelease": 8,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin8-binaries/releases/tag/jdk8u402-b06",
+    "name": "jdk-1.8.0_402-b06",
+    "type": "jdk",
+    "architecture": "x86_64",
+    "version": "1.8.0_402-b06",
+    "versionSemver": "8.0.402+6",
+    "timestamp": "2024-01-19T15:54:22Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u402-b06/OpenJDK8U-jdk_x64_linux_hotspot_8u402b06.tar.gz",
+      "checksum": "fcfd08abe39f18e719e391f2fc37b8ac1053075426d10efac4cbf8969e7aa55e"
+    }
+  },
+  {
+    "featureRelease": 11,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.22%2B7",
+    "name": "jre-11.0.22_7",
+    "type": "jre",
+    "architecture": "aarch64",
+    "version": "11.0.22+7",
+    "versionSemver": "11.0.22+7",
+    "timestamp": "2024-01-18T15:02:29Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-jre_aarch64_linux_hotspot_11.0.22_7.tar.gz",
+      "checksum": "46e2bff7d5f419ac7c2fad29e78bfacf49ead4a2de1aba73b6329128f6d1f707"
+    }
+  },
+  {
+    "featureRelease": 11,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.22%2B7",
+    "name": "jdk-11.0.22_7",
+    "type": "jdk",
+    "architecture": "aarch64",
+    "version": "11.0.22+7",
+    "versionSemver": "11.0.22+7",
+    "timestamp": "2024-01-18T15:02:29Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-jdk_aarch64_linux_hotspot_11.0.22_7.tar.gz",
+      "checksum": "ca1dc604352e9b3906b8955a700745a0a650ed59947f7f354af597871876a716"
+    }
+  },
+  {
+    "featureRelease": 11,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.22%2B7",
+    "name": "jre-11.0.22_7",
+    "type": "jre",
+    "architecture": "x86_64",
+    "version": "11.0.22+7",
+    "versionSemver": "11.0.22+7",
+    "timestamp": "2024-01-18T15:02:29Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-jre_x64_linux_hotspot_11.0.22_7.tar.gz",
+      "checksum": "3a0fec1b9ef38d6abd86cf11f6001772b086096b6ec2588d2a02f1fa86b2b1de"
+    }
+  },
+  {
+    "featureRelease": 11,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.22%2B7",
+    "name": "jdk-11.0.22_7",
+    "type": "jdk",
+    "architecture": "x86_64",
+    "version": "11.0.22+7",
+    "versionSemver": "11.0.22+7",
+    "timestamp": "2024-01-18T15:02:29Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin11-binaries/releases/download/jdk-11.0.22%2B7/OpenJDK11U-jdk_x64_linux_hotspot_11.0.22_7.tar.gz",
+      "checksum": "25cf602cac350ef36067560a4e8042919f3be973d419eac4d839e2e0000b2cc8"
+    }
+  },
+  {
+    "featureRelease": 17,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin17-binaries/releases/tag/jdk-17.0.10%2B7",
+    "name": "jre-17.0.10_7",
+    "type": "jre",
+    "architecture": "aarch64",
+    "version": "17.0.10+7",
+    "versionSemver": "17.0.10+7",
+    "timestamp": "2024-01-17T15:45:20Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jre_aarch64_linux_hotspot_17.0.10_7.tar.gz",
+      "checksum": "16080d055da0962fbd6b40f659a98a457cba3efa7ea716d5400cfebe8b935bf0"
+    }
+  },
+  {
+    "featureRelease": 17,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin17-binaries/releases/tag/jdk-17.0.10%2B7",
+    "name": "jdk-17.0.10_7",
+    "type": "jdk",
+    "architecture": "aarch64",
+    "version": "17.0.10+7",
+    "versionSemver": "17.0.10+7",
+    "timestamp": "2024-01-17T15:45:20Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_aarch64_linux_hotspot_17.0.10_7.tar.gz",
+      "checksum": "6e4201abfb3b020c1fb899b7ac063083c271250bf081f3aa7e63d91291a90b74"
+    }
+  },
+  {
+    "featureRelease": 17,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin17-binaries/releases/tag/jdk-17.0.10%2B7",
+    "name": "jre-17.0.10_7",
+    "type": "jre",
+    "architecture": "x86_64",
+    "version": "17.0.10+7",
+    "versionSemver": "17.0.10+7",
+    "timestamp": "2024-01-17T15:45:20Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jre_x64_linux_hotspot_17.0.10_7.tar.gz",
+      "checksum": "620cc0e7338f2722f3ed076ac65c0fafb575981426bac4e1970860e5e2d048f0"
+    }
+  },
+  {
+    "featureRelease": 17,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin17-binaries/releases/tag/jdk-17.0.10%2B7",
+    "name": "jdk-17.0.10_7",
+    "type": "jdk",
+    "architecture": "x86_64",
+    "version": "17.0.10+7",
+    "versionSemver": "17.0.10+7",
+    "timestamp": "2024-01-17T15:45:20Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.10%2B7/OpenJDK17U-jdk_x64_linux_hotspot_17.0.10_7.tar.gz",
+      "checksum": "a8fd07e1e97352e97e330beb20f1c6b351ba064ca7878e974c7d68b8a5c1b378"
+    }
+  },
+  {
+    "featureRelease": 21,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin21-binaries/releases/tag/jdk-21.0.2%2B13",
+    "name": "jre-21.0.2_13-LTS",
+    "type": "jre",
+    "architecture": "aarch64",
+    "version": "21.0.2+13-LTS",
+    "versionSemver": "21.0.2+13.0.LTS",
+    "timestamp": "2024-01-18T15:30:24Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jre_aarch64_linux_hotspot_21.0.2_13.tar.gz",
+      "checksum": "64c78854184c92a4da5cda571c8e357043bfaf03a03434eef58550cc3410d8a4"
+    }
+  },
+  {
+    "featureRelease": 21,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin21-binaries/releases/tag/jdk-21.0.2%2B13",
+    "name": "jdk-21.0.2_13-LTS",
+    "type": "jdk",
+    "architecture": "aarch64",
+    "version": "21.0.2+13-LTS",
+    "versionSemver": "21.0.2+13.0.LTS",
+    "timestamp": "2024-01-18T15:30:24Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_aarch64_linux_hotspot_21.0.2_13.tar.gz",
+      "checksum": "3ce6a2b357e2ef45fd6b53d6587aa05bfec7771e7fb982f2c964f6b771b7526a"
+    }
+  },
+  {
+    "featureRelease": 21,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin21-binaries/releases/tag/jdk-21.0.2%2B13",
+    "name": "jre-21.0.2_13-LTS",
+    "type": "jre",
+    "architecture": "x86_64",
+    "version": "21.0.2+13-LTS",
+    "versionSemver": "21.0.2+13.0.LTS",
+    "timestamp": "2024-01-18T15:30:24Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jre_x64_linux_hotspot_21.0.2_13.tar.gz",
+      "checksum": "51141204fe01a9f9dd74eab621d5eca7511eac67315c9975dbde5f2625bdca55"
+    }
+  },
+  {
+    "featureRelease": 21,
+    "githubReleaseUrl": "https://github.com/adoptium/temurin21-binaries/releases/tag/jdk-21.0.2%2B13",
+    "name": "jdk-21.0.2_13-LTS",
+    "type": "jdk",
+    "architecture": "x86_64",
+    "version": "21.0.2+13-LTS",
+    "versionSemver": "21.0.2+13.0.LTS",
+    "timestamp": "2024-01-18T15:30:24Z",
+    "url": {
+      "binary": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.2%2B13/OpenJDK21U-jdk_x64_linux_hotspot_21.0.2_13.tar.gz",
+      "checksum": "454bebb2c9fe48d981341461ffb6bf1017c7b7c6e15c6b0c29b959194ba3aaa5"
+    }
+  }
+]
